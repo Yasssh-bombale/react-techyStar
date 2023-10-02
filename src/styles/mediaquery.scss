@@ -1,0 +1,132 @@
+// @media screen and (max-width: 950px) {
+//   .contact {
+//     > main {
+//       > form {
+//         margin: 2rem;
+//         > div {
+//           width: 91%;
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media screen and (max-width: 821px) {
+  .home3 {
+    height: 130vh;
+    > div {
+      height: 100vh;
+    }
+  }
+  .contact {
+    > main {
+      > h1 {
+        text-align: center;
+      }
+      > form {
+        > div {
+          // border: 1px solid black;
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 734px) {
+  .home3 {
+    > div {
+      height: 120vh;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  nav {
+    > h1 {
+      display: none;
+    }
+    > main {
+      width: 100%;
+      justify-content: center;
+      a {
+        margin: 0.5rem;
+      }
+    }
+  }
+  .home {
+    > main {
+      align-items: center;
+      > h1 {
+        font: 400 3rem "Roboto";
+      }
+      > p {
+        font: 900 0.8rem "Roboto";
+      }
+    }
+  }
+  .home3 {
+    > div {
+      height: 93vh;
+      width: 96%;
+      > p {
+        padding: 2rem;
+      }
+    }
+  }
+  .home4 {
+    height: 100vh;
+    > div {
+      height: 80vh;
+      width: 100%;
+    }
+  }
+  footer {
+    padding: 1rem;
+    > div {
+      > h5 {
+        font: 500 1.1rem "Roboto";
+      }
+      > h1 {
+        font: 700 1.8rem "Roboto";
+      }
+      > p {
+        font: 400 1rem "Roboto";
+      }
+    }
+  }
+  .contact {
+    > main {
+      > form {
+        margin: 1rem;
+        > div {
+          width: 110%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 641px) {
+  .contact {
+    > main {
+      width: 97%;
+      padding: 1.5rem;
+      > form {
+        margin-top: 3rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 590px) {
+  .home2 {
+    height: 140vh;
+    // border: 1px solid white;
+    flex-direction: column;
+    > img {
+      width: 85%;
+    }
+    > div {
+      width: 90%;
+      height: 53vh;
+      padding: 1rem;
+    }
+  }
+}
